@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disappearing Ninja</title>
+    <script type=text/javascript src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script type=text/javascript>   
+        $(document).ready(function() {
+            
+            $('img').click(function() {
+                $(this).attr("src", "../disappearingninja/restorebmo.png");;
+            });
+           
+            $('#restore').click (function() {
+                $('img').attr("src", "../disappearingninja/bmo.jpg");
+                $('button').css('background-color', 'pink');
+                $('button').text("I MADE IT SWAP TO A NEW IMG BECAUSE IT LOOKED NICER! SORRY!");
+                $('h1').text("HE'S BACK! NOW PRESS F5!")
+            });
+
+        });
+    </script>
+</head>
+<body>
+    <h1>DISAPPEARING BMO!</h1>
+    <br>
+    <img src="../disappearingninja/bmo.jpg" alt="bmo" height="100px" width="100px">
+    <img src="../disappearingninja/bmo.jpg" alt="bmo" height="100px" width="100px">
+    <img src="../disappearingninja/bmo.jpg" alt="bmo" height="100px" width="100px">
+    <img src="../disappearingninja/bmo.jpg" alt="bmo" height="100px" width="100px">
+    <br>
+    <img src="../disappearingninja/bmo.jpg" alt="bmo" height="100px" width="100px">
+    <img src="../disappearingninja/bmo.jpg" alt="bmo" height="100px" width="100px">
+    <img src="../disappearingninja/bmo.jpg" alt="bmo" height="100px" width="100px">
+    <img src="../disappearingninja/bmo.jpg" alt="bmo" height="100px" width="100px">
+    <br>
+    <button id= "restore">Restore</button>
+</body>
+</html>
