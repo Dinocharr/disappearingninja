@@ -1,0 +1,19 @@
+{
+  "name": "disappearingninja",
+  "version": "1.0.0",
+  "description": "jquery assignment",
+  "main": "Restore BMO",
+  "scripts": {
+    "test": "exit 0"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Dinocharr/disappearingninja.git"
+  },
+  "author": "Paul Jansen",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Dinocharr/disappearingninja/issues"
+  },
+  "homepage": "https://github.com/Dinocharr/disappearingninja#readme"
+}
